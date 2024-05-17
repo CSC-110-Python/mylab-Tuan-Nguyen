@@ -7,7 +7,7 @@ score = input('Enter your score(or 999 to exit): ')
 while score != '999':
     if score.isdigit():
         score = int(input(score))
-        if 0<=score<=100:
+        if 0 <= score <= 100:
             total_score += score
             num_score += 1
         else:
